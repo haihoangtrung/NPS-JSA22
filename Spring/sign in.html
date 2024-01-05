@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Spring/sign in .css">
+    <link rel="stylesheet" href="/Spring/navigation.css">
+</head>
+<body>
+    <div class="container">
+      <div class="navigation">
+            <a href="/Spring/mainpage.html"> Spring</a>
+            <a href="/Spring/viet.html"> Spring in Vietnam</a>
+            <a href="#"> Festival</a>
+            <a href="#"> Food </a>
+            <a href="#"> Costumes</a>
+            <a href="/Spring/sign in.html"> Sign In</a>
+            <a href="/Spring/sign up.html"> Sign Up </a>
+      </div>
+        </div>
+    <div class="containerr">
+        <div class="box">
+            <h1> SIgn In </h1>
+            <form id="login">
+                <div class="text-box">
+                    <label for="email">Email</label><br>
+                    <input type="text" placeholder="email" id="email">
+                </div>
+                <div class="text-box">
+                    <label for="password">Password</label> <br>
+                    <input type="text" placeholder="password" id="password">
+                </div>
+                <div class="text-box">
+                    <label for="username"> Username</label> <br>
+                    <input type="text" placeholder="username" id="password">
+                </div>
+                <div class="text-box">
+                    <button type="submit"> Log in</button>
+                    <p class="alert"> Haven't got an account ?</p>
+                </div>
+            </form>
+            <script>
+                const login= document.getElementById('login')
+                login.addEventListener('submit', function(){
+                const email =document.getElementById('email').value;
+                const password = document.getElementById('password').value
+                const username = document.getElementById('username').value
+                alert('email;' + email +'\n password'+ password +'\n username')
+                });
+                </script>
+    </div>
+</body>
+</html>

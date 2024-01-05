@@ -1,0 +1,19 @@
+.container .navigation {
+    background-color:green;
+    /* color: white; */
+    height: 32px;
+    line-height: 32px;
+    text-align: end;
+}
+
+.container .navigation a {
+    color: white;
+    padding: 30px;
+    height: 100%;
+    text-decoration: none;
+    text-align: end;
+}
+
+.container .navigation a:hover {
+    color: black;
+}

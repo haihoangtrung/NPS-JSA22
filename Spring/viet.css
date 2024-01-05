@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+.part{
+    font-size: 30px;
+}
+.features{
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 20px;
+}
+
+.yellow{
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 20px;
+}
+.weather{
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 20px;
+}
+.poem{
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 20px;
+    background-image: url();
+}
+.scrips{
+    font-size: 20px;
+}
