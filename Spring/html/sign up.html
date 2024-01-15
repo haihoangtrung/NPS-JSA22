@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/sign up.css">
+    <link rel="stylesheet" href="/css/navigation.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+           <a href="/html/mainpage.html">Spring</a>
+            <a href="/html/viet.html"> Spring in Vietnam</a>
+            <a href="/html/festival.html">Festival</a>
+            <a href="/html/costume.html"> Costumes</a>
+            <a href="/html/sign in.html"> Sign In</a>
+            <a href="/html/sign up.html"> Sign Up </a>
+        </div>
+    </div>
+    <div class="containerr">
+        <div class="box">
+            <h1> Sign Up </h1>
+            <form id="login">
+                <div class="text-box">
+                    <label for="name">Name</label><br>
+                    <input type="text" placeholder="Name" id="name">
+                </div>
+                <div class="text-box">
+                    <label for="age"> Age</label> <br>
+                    <input type="text" placeholder="Age" id="age">
+                </div>
+                <div class="text-box">
+                    <label for="email"> Email</label> <br>
+                    <input type="text" placeholder="Email" id="email">
+                </div>
+                <div class="text-box">
+                    <label for="password"> Password</label> <br>
+                    <input type="text" placeholder="Password" id="password">
+                </div>
+                <div class="text-box">
+                    <label for="sexual"> Sexual</label> <br>
+                    <select name="sexual" id="sexual">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        <option value="other">other</option>
+                    </select>
+                   
+                    </div>
+                
+                 <div class="text-box">
+                    <button type="submit" id="submit">SUBMIT</button>
+                    </div>
+
+    </div>
+    <script>
+        const login= document.getElementById('login')
+        login.addEventListener('submit', function(){
+        const name =document.getElementById('name').value;
+        const age = document.getElementById('age').value;
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value
+        alert('name;' + name + '\n age'+ age +'\n email'+ email +'\n password'+ password)
+        });
+        </script>
+    
+</body>
+</html>

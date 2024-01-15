@@ -1,0 +1,17 @@
+.main{
+    text-align: center;
+}
+.part{
+    font-size: 30px;
+}
+.word{
+    font-size: 20px;
+}
+.introduce{
+    justify-content: space-evenly;
+    display: flex;
+}
+.meaning{
+    justify-content: space-evenly;
+    display: flex;
+}

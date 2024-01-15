@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+.part{
+    font-size: 30px;
+}
+.features{
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 20px;
+}
+
+.yellow{
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 20px;
+}
+.weather{
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 20px;
+}
+.tet{
+    text-align: center;
+}
+.scrips{
+    font-size: 20px;
+}
+body{
+    background-image: url();
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    
+}

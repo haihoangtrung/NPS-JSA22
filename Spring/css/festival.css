@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.part{
+    font-size: 30px;
+}
+.event{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.events{
+    text-align: center;
+    font-size: 20px;
+}
+.eventss{
+    font-size: 20px;
+}
